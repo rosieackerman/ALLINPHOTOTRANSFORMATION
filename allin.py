@@ -299,7 +299,7 @@ else:
     col1, col2 = st.columns(2)
 
     with col1:
-        st.image("team/gitri.jpg", use_container_width=False)
+        st.image("gitri.jpg", use_container_width=False)
         st.markdown("""
         <div class="team-card">
             <h3>🌼 Gita Triyani Siagian</h3>
@@ -312,7 +312,7 @@ else:
         """, unsafe_allow_html=True)
 
     with col2:
-        st.image("team/rosie.jpg", use_container_width=False)
+        st.image("rosie.jpg", use_container_width=False)
         st.markdown("""
         <div class="team-card">
             <h3>🌸 Roshni Mythili</h3>
@@ -340,3 +340,4 @@ else:
     </p>
     </div>
     """, unsafe_allow_html=True)
+
